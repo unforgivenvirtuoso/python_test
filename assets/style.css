@@ -1,0 +1,51 @@
+body {
+  background-color: #a45ee5;
+  color: #f3f5f4;
+  font-family: "Comic Sans";
+  width: 100%;
+  height: 100vh;
+  max-width: 100% !important;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+h1 {
+  padding-left: 45%;
+}
+
+.nav-link {
+  font-size: 25px;
+  text-decoration: none;
+  color: #f9247b;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  background-color: #9600cd;
+  color: #fff;
+  opacity: 0.9;
+}
+
+
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #f9247b;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  opacity: 1;
+}
+
+
+#input {
+  width: 40%;
+}
+
+
+
